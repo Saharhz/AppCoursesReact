@@ -1,0 +1,39 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "Introduction to JavaScript",
+      "description": "Learn the basics of JavaScript, the most popular programming language for web development.",
+      "duration": "4 weeks",
+      "level": "Beginner"
+    },
+    {
+      "id": "2",
+      "title": "Advanced Java Programming",
+      "description": "Dive deep into Java's advanced features including multithreading, collections, and memory management.",
+      "duration": "6 weeks",
+      "level": "Advanced"
+    },
+    {
+      "id": "3",
+      "title": "Microservices Architecture",
+      "description": "Understand the design principles and implementation of microservices using modern tools and frameworks.",
+      "duration": "5 weeks",
+      "level": "Intermediate"
+    },
+    {
+      "id": "4",
+      "title": "Cloud Computing with AWS",
+      "description": "Get hands-on experience with AWS services and learn how to deploy scalable applications to the cloud.",
+      "duration": "6 weeks",
+      "level": "Intermediate"
+    },
+    {
+      "id": "5",
+      "title": "Frontend Development with React",
+      "description": "Build interactive UIs using React, JSX, components, and state management.",
+      "duration": "4 weeks",
+      "level": "Beginner to Intermediate"
+    }
+  ]
+}
