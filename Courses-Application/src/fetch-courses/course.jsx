@@ -6,15 +6,12 @@ export default function course({ id, title, description, duration, level }) {
 
   return (
     <div>
-      <h1 className="flex text-2xl font-semibold items-center justify-center p-7 pb-5">
-        Available Courses
-      </h1>
-      <ul className="grid grid-cols-1 sm:grid-cols-3 gap-4 ">
-        <li>
-          <h3>{title}</h3>
-          <p>{description}</p>
-          <p>Duration: {duration}</p>
-          <p>Level: {level}</p>
+      <ul>
+        <li className="bg-teal-50 border-amber-300 border p-4 rounded mb-4">
+          <h3 className="text-xl font-semibold text-amber-800 mb-2">{title}</h3>
+          <p className="text-gray-700 mb-1">{description}</p>
+          <p className="text-sm text-gray-600">Duration: {duration}</p>
+          <p className="text-sm text-gray-600">Level: {level}</p>
         </li>
       </ul>
     </div>

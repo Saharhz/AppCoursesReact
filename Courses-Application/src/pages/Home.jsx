@@ -4,18 +4,23 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="p-6">
-      <h1 className="flex text-2xl font-semibold items-center justify-center">
+    <div className="min-h-screen bg-gray-50 p-6 sm:p-10">
+      <h1 className="text-3xl font-bold text-center text-amber-700 mb-10">
         Available Courses
       </h1>
-      <div className="grid grid-cols-1 sm: grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {courses.map((courses) => (
-          <div key={courses.id}>
+          <div
+            key={courses.id}
+            className="bg-white border border-amber-200 rounded-xl p-6 shadow hover:shadow-md transition"
+          >
             <div>
-              <h3>{courses.title}</h3>
+              <h3 className="text-xl font-semibold text-amber-800 mb-3">
+                {courses.title}
+              </h3>
             </div>
             <Link to={`/courses/${courses.id}`}>
-              <button className="mt-2 mx-6 mb-7 p-2 bg-[hsl(0,0%,93%)] rounded-2xl hover:bg-amber-100">
+              <button className="w-full p-2 bg-amber-100 rounded-lg text-amber-900 hover:bg-amber-200 transition">
                 More Information
               </button>
             </Link>

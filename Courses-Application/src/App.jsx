@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Navbar from "./_components/Navbar.jsx";
 import Available from "./pages/Available.jsx";
 import Courses from "./fetch-courses/courses.jsx";
+import Course from "./fetch-courses/course.jsx";
 
 function App() {
   return (
